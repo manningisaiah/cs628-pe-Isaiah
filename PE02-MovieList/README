@@ -1,1 +1,17 @@
+INPUT 
+A list of Movies was inputted into the movielist.js file in the form of an array.
 
+OUTPUT
+An array of movies with properties title, genre, and releaseYear.
+A dropdown (select) is used to filter the movies by genre.
+The filteredMovies array updates based on the selected genre.
+When a movie card is clicked, an alert is shown with the movie title.
+Styling:
+
+PROCESS 
+Basic CSS styles are applied to make the app visually appealing, with a hover effect on the movie cards.
+useState is used to manage the selected genre and trigger re-rendering when it changes.
+useState  was added to handle background colors for the movie cards. This applies dynamic colors based on user interaction. 
+
+References
+      OpenAI. (2025). ChatGPT (January 2025) [Large language model]. OpenAI. https://openai.com/chatgpt
